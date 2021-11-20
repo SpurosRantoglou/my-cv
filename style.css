@@ -7,6 +7,13 @@
     --space-big: 32px;
 }
 
+::selection {
+    background: rgba(44, 117, 255, .2); /* WebKit/Blink Browsers */
+  }
+::-moz-selection {
+background: rgba(44, 117, 255, .2); /* Gecko Browsers */
+}
+
 .dark {
     --dark: rgb(20, 20, 20);
     --dark100: rgba(0, 0, 0, .6);
@@ -301,7 +308,7 @@ body {
 .header-buttons {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     column-gap: 16px;
@@ -882,8 +889,8 @@ body {
         column-gap: 8px;
     }
     .profile-pic {
-        width: 64px;
-        height: 64px;
+        width: 140px;
+        height: 140px;
     }
     .nickname {
         padding: 8px;
