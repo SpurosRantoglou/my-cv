@@ -125,6 +125,7 @@ background: rgba(44, 117, 255, .2); /* Gecko Browsers */
 }
 
 
+
 /* Components */
 
 
@@ -427,6 +428,14 @@ body {
 
 .subtitle {
     color: var(--light200);
+}
+
+.left-tab{
+    margin-left: 16px;
+}
+
+.margin-top{
+    margin-top: 8px;
 }
 
 
